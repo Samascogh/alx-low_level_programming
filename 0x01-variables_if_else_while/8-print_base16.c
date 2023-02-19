@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints all the numbers of base 10 in lowercase
+ * main - prints all the numbers of base 16 in lowercase
  *
  * Return: 0
 */
@@ -14,6 +14,8 @@ int main(void)
 	}
 	for (ch = 'a'; ch <= 'f'; ch++)
 	{
-		putchar('\n');
-		return (0);
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
 }
