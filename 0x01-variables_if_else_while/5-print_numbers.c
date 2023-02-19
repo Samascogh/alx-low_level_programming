@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <time.h>
-#include <stlib.h>
 /**
  * main - prints all single digit numbers of base 10 starting from 0
  *
