@@ -6,11 +6,12 @@
  * @dest: input value
  * @src: input value
  * @n: input value
- * Return: void
+ * Return: dest
  */
 char *_strncat(char *dest, char *src, int n);
 {
-	int a, b;
+	int a;
+	int b;
 
 	a = 0;
 	while (dest[a] != '\0')
